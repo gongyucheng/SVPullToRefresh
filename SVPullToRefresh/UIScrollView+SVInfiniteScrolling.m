@@ -22,7 +22,7 @@ static CGFloat const SVInfiniteScrollingViewHeight = 60;
 
 
 @interface SVInfiniteScrollingView ()
-
+@property(nonatomic,weak)BOOL isDemoFromMe;
 @property (nonatomic, copy) void (^infiniteScrollingHandler)(void);
 
 @property (nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
